@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #6cacc5;
+}
+.div-header {
+  width: 50%;
+  border: 2px solid #6cacc5;
+  /*box-shadow: 3px 3px 3px 3px #eee;*/
+}
+.div-header p {
+  background: -webkit-linear-gradient(45deg, #c97874 10%, #463042 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #8c5059;
+}
+.div-header h1 {
+  display: inline-block;
+}
+.div-header:hover {
+  background: #201e40;
+  color: #8c5059;
+  transition: all 1s;
+}
+/*medidas para escritorio*/
+@media only screen and (min-width: 1170px) {
+  .div-header {
+    width: 80%;
+  }
+}
+/*medidas para tablet*/
+@media only screen and (min-width: 700px) {
+  .div-header {
+    width: 30%;
+  }
+}

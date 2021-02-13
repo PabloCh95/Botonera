@@ -9,7 +9,7 @@ import "./botonera.css";
 function Botonera(props) {
     const {data}=props;
 
-    //tome lo de fer jajaja 
+   
     return (
         <div className="Button-Component">
             {data?.links ?
